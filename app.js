@@ -14,7 +14,7 @@ app.use('/api/v1', urlRouter)
 const start = async () => {
   try {
     await connectDB()
-    app.listen(5000, console.log(`Server is listening at 8080`))
+    app.listen(5000, console.log(`Server is not listening at 8080`))
   } catch (error) {
     console.log(error)
   }
